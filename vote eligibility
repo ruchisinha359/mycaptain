@@ -1,3 +1,21 @@
 #include<iostream>
 using namespace std;
 int main(){
+int age;
+cout<<"Enter age of the citizen: ";
+cin>>age;
+if(age>=18)
+{cout<<"\nYou are eligible to vote";
+cout<<"\nCongratulations,you are a responsible citizen with a power to make a difference for this country";
+cout<<"\nBe a responsible citizen and make a difference by voting";
+cout<<"\nYour vote is precious,so,don't let it waste";
+cout<<"\nAlso,do not forget to educate others to vote as well";
+}
+else
+{cout<<"\nYou are not eligible to vote";
+cout<<"\nDon't be discouraged and wait for "<<18-age;
+cout<<" years";
+cout<<"\nIn the mean time learn about politics,so that you are able to make better decisions for your country"; 
+}
+return 0;
+}
